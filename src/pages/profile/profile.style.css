@@ -1,0 +1,50 @@
+.profile-page {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 50px 50px 50px;
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.top-bar h2 {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 30px;
+}
+
+.user-details {
+  font-size: 18px;
+  font-weight: bolder;
+  line-height: 30px;
+  margin: 0;
+}
+
+.user-sub-details {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 0;
+}
+
+.tab.MuiTab-root {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .profile-page {
+    padding: 30px 20px;
+  }
+}
+
+.hidden {
+  opacity: 0;
+}

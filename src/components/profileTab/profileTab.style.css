@@ -1,0 +1,103 @@
+.tab-panel.MuiTabPanel-root {
+  padding: 20px 0;
+}
+
+.profile-tab {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.profile-tab-raw-1,
+.profile-tab-raw-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.profile-detail-card.MuiCard-root {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  min-width: 250px;
+  border-radius: 12px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  line-height: 30px;
+}
+
+.card-row.MuiStack-root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.card-column-key.MuiStack-root {
+  width: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.card-column.MuiStack-root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.card-column-key.MuiStack-root .MuiSvgIcon-root {
+  width: 16px;
+  height: 16px;
+}
+
+p {
+  width: 180px;
+  word-wrap: break-word;
+}
+
+.detail-key {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 0;
+}
+
+.detail-value {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0;
+}
+
+.copy.MuiSvgIcon-root {
+  cursor: pointer;
+}
+
+.tabel.MuiTable-root {
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 5px;
+  border-collapse: separate;
+  overflow: hidden;
+}
+
+.table-head.MuiTableHead-root {
+  background-color: #ffffff80;
+}
+
+@media only screen and (max-width: 600px) {
+  .tabel.MuiTable-root {
+    width: 310px;
+  }
+}
